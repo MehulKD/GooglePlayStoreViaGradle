@@ -1,0 +1,7 @@
+apply plugin: "com.github.triplet.play"
+
+play
+{
+  jsonFile = file("Google Play Android Developer-8a5430220763.json")
+  track = 'alpha'
+}
